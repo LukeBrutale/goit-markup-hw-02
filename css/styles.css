@@ -7,10 +7,33 @@ body {
   list-style: none;
 }
 
+/* logo */
+
 .logo {
   color: #000000;
 }
 
 .logo-title {
   color: #2196f3;
+}
+
+/* site-nav */
+
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/* main */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: #ffffff;
 }
