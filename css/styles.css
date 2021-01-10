@@ -1,0 +1,16 @@
+body {
+  background-color: #ffffff;
+  color: #757575;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: #000000;
+}
+
+.logo-title {
+  color: #2196f3;
+}
