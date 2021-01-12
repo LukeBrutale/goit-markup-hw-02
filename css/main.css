@@ -88,6 +88,6 @@ body {
   color: var(--primary-write-color);
 }
 
-.footer-nav a {
+.footer-nav button {
   color: #ffffff 60 %;
 }
