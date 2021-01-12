@@ -1,0 +1,93 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-write-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-write-color);
+  color: var(--title-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* logo */
+
+.logo {
+  color: #000000;
+}
+
+.logo-title {
+  color: var(--accent-color);
+}
+
+/* site-nav */
+
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* main */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: var(--primary-write-color);
+}
+
+.section-title {
+  color: var(--primary-text-color);
+}
+
+.section-text {
+  color: var(--title-text-color);
+}
+
+/* button */
+
+.btn {
+  color: var(--primary-text-color);
+  background-color: var(--primary-write-color);
+}
+
+.auth-nav .btn:hover,
+.auth-nav .btn:focus {
+  color: var(--accent-color);
+}
+
+.btn.primary {
+  color: var(--primary-write-color);
+  background-color: var(--accent-color);
+}
+
+/* footer */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-logo {
+  color: var(--primary-write-color);
+}
+
+.footer-address {
+  color: var(--primary-write-color);
+}
+
+.footer-nav a {
+  color: #ffffff 60 %;
+}
