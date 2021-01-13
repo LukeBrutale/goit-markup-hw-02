@@ -3,6 +3,7 @@
   --title-text-color: #757575;
   --accent-color: #2196f3;
   --primary-write-color: #ffffff;
+  --secondary-bg-color: #2f303a;
 }
 
 body {
@@ -42,7 +43,7 @@ body {
 /* main */
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--secondary-bg-color);
 }
 
 .hero-title {
@@ -74,20 +75,31 @@ body {
   background-color: var(--accent-color);
 }
 
+.button-nav .btn {
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+}
+
+.button-nav .btn:hover,
+.button-nav .btn:focus {
+  color: var(--primary-write-color);
+  background-color: var(--accent-color);
+}
+
 /* footer */
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--secondary-bg-color);
 }
 
 .footer-logo {
   color: var(--primary-write-color);
 }
 
-.footer-address {
+.footer-contacts {
   color: var(--primary-write-color);
 }
 
-.footer-nav button {
-  color: #ffffff 60 %;
+.footer-nav .button {
+  color: rgba(255, 255, 255, 0.6);
 }
