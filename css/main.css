@@ -9,6 +9,7 @@
 body {
   background-color: var(--primary-write-color);
   color: var(--title-text-color);
+  font-family: Roboto, sans-serif;
 }
 
 .list {
@@ -19,6 +20,7 @@ body {
 
 .logo {
   color: #000000;
+  font-family: Raleway, sans-serif;
 }
 
 .logo-title {
@@ -63,6 +65,10 @@ body {
 .btn {
   color: var(--primary-text-color);
   background-color: var(--primary-write-color);
+}
+
+.auth-nav .btn {
+  color: var(--title-text-color);
 }
 
 .auth-nav .btn:hover,
