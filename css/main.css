@@ -21,6 +21,9 @@ body {
 .logo {
   color: #000000;
   font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 .logo-title {
@@ -31,6 +34,9 @@ body {
 
 .site-nav .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .site-nav .link:hover,
@@ -46,6 +52,11 @@ body {
 
 .hero {
   background-color: var(--secondary-bg-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .hero-title {
@@ -54,10 +65,16 @@ body {
 
 .section-title {
   color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
 }
 
 .section-text {
   color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 /* button */
@@ -69,6 +86,9 @@ body {
 
 .auth-nav .btn {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .auth-nav .btn:hover,
