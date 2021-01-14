@@ -21,7 +21,7 @@ body {
 .logo {
   color: #000000;
   font-family: Raleway, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
 }
@@ -52,6 +52,10 @@ body {
 
 .hero {
   background-color: var(--secondary-bg-color);
+}
+
+.hero-title {
+  color: var(--primary-write-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -59,11 +63,27 @@ body {
   text-transform: uppercase;
 }
 
-.hero-title {
-  color: var(--primary-write-color);
+.section-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
-.section-title {
+.section-team {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.section-team-text {
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.section-subtitle {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -96,20 +116,41 @@ body {
   color: var(--accent-color);
 }
 
-.btn.primary {
+.hero-btn {
   color: var(--primary-write-color);
   background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
 }
 
 .button-nav .btn {
   color: var(--primary-text-color);
   background-color: #f5f4fa;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 .button-nav .btn:hover,
 .button-nav .btn:focus {
   color: var(--primary-write-color);
   background-color: var(--accent-color);
+}
+
+/* gallary */
+
+.content-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.content-text {
+  font-size: 16px;
+  line-height: 1.9;
 }
 
 /* footer */
@@ -120,12 +161,22 @@ body {
 
 .footer-logo {
   color: var(--primary-write-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 .footer-contacts {
   color: var(--primary-write-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .footer-nav .button {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
 }
