@@ -4,43 +4,44 @@
   --accent-color: #2196f3;
   --primary-write-color: #ffffff;
   --secondary-bg-color: #2f303a;
+  --logo-black-color: #000000;
 }
 
 body {
   background-color: var(--primary-write-color);
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
 }
 
 .list {
   list-style: none;
 }
 
-/* logo */
+/* =====HEADER===== */
 
 .logo {
-  color: #000000;
+  color: var(--logo-black-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.2;
+  text-decoration: none;
 }
 
 .logo-title {
   color: var(--accent-color);
 }
 
-/* site-nav */
-
-.site-nav .link {
+.site-nav-link {
   color: var(--primary-text-color);
-  font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
+  text-decoration: none;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav-link:hover,
+.site-nav-link:focus {
   color: var(--accent-color);
 }
 
@@ -48,7 +49,22 @@ body {
   color: var(--accent-color);
 }
 
-/* main */
+.auth-nav-link {
+  color: var(--title-text-color);
+  line-height: 1.14;
+  text-decoration: none;
+}
+
+.auth-nav-link:hover,
+.auth-nav-link:focus {
+  color: var(--accent-color);
+}
+
+/* =====END HEADER=====  */
+
+/* =====MAIN===== */
+
+/* Hero */
 
 .hero {
   background-color: var(--secondary-bg-color);
@@ -73,9 +89,7 @@ body {
 
 .section-team {
   color: var(--primary-text-color);
-  font-weight: 500;
   font-size: 16px;
-  line-height: 1.2;
 }
 
 .section-team-text {
@@ -86,14 +100,11 @@ body {
 .section-subtitle {
   color: var(--primary-text-color);
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.2;
   text-transform: uppercase;
 }
 
 .section-text {
   color: var(--title-text-color);
-  font-size: 14px;
   line-height: 1.7;
 }
 
@@ -102,18 +113,6 @@ body {
 .btn {
   color: var(--primary-text-color);
   background-color: var(--primary-write-color);
-}
-
-.auth-nav .btn {
-  color: var(--title-text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-}
-
-.auth-nav .btn:hover,
-.auth-nav .btn:focus {
-  color: var(--accent-color);
 }
 
 .hero-btn {
@@ -128,9 +127,9 @@ body {
   color: var(--primary-text-color);
   background-color: #f5f4fa;
   font-family: inherit;
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  cursor: pointer;
 }
 
 .button-nav .btn:hover,
@@ -139,9 +138,13 @@ body {
   background-color: var(--accent-color);
 }
 
-/* gallary */
+/* Works */
 
-.content-title {
+.content-link {
+  text-decoration: none;
+}
+
+.content-link .content-title {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -149,11 +152,14 @@ body {
 }
 
 .content-text {
+  color: var(--title-text-color);
   font-size: 16px;
   line-height: 1.9;
 }
 
-/* footer */
+/* =====END MAIN===== */
+
+/* =====FOOTER===== */
 
 .footer {
   background-color: var(--secondary-bg-color);
@@ -164,19 +170,25 @@ body {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.2;
+  text-decoration: none;
 }
 
 .footer-contacts {
   color: var(--primary-write-color);
   font-style: normal;
-  font-size: 14px;
   line-height: 1.7;
 }
 
 .footer-nav .button {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
-  font-size: 14px;
   line-height: 1.7;
+  text-decoration: none;
 }
+
+.footer-nav .button:hover,
+.footer-nav .button:focus {
+  color: var(--accent-color);
+}
+
+/* =====END FOOTER===== */
